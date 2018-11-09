@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FORWCDB_Example' do
+  pod 'FORWCDB', :path => '../'
+
+  target 'FORWCDB_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
